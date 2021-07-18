@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblDbsource;
 import com.s.mapper.TblDbsourceMapper;
-import com.s.service.TblDbsourceService;
+import com.s.service.base.TblDbsourceService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblUserGroup;
 import com.s.mapper.TblUserGroupMapper;
-import com.s.service.TblUserGroupService;
+import com.s.service.base.TblUserGroupService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

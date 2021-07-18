@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.WyEstateOutDetail;
 import com.s.mapper.WyEstateOutDetailMapper;
-import com.s.service.WyEstateOutDetailService;
+import com.s.service.base.WyEstateOutDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

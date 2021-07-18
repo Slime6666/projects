@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblCustomType;
 import com.s.mapper.TblCustomTypeMapper;
-import com.s.service.TblCustomTypeService;
+import com.s.service.base.TblCustomTypeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

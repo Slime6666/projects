@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.WyEmailReceive;
 import com.s.mapper.WyEmailReceiveMapper;
-import com.s.service.WyEmailReceiveService;
+import com.s.service.base.WyEmailReceiveService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

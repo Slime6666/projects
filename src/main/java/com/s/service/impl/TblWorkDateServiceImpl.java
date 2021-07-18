@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblWorkDate;
 import com.s.mapper.TblWorkDateMapper;
-import com.s.service.TblWorkDateService;
+import com.s.service.base.TblWorkDateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.WyFireExercise;
 import com.s.mapper.WyFireExerciseMapper;
-import com.s.service.WyFireExerciseService;
+import com.s.service.base.WyFireExerciseService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

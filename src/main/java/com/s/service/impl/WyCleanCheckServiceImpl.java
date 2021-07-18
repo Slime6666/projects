@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.WyCleanCheck;
 import com.s.mapper.WyCleanCheckMapper;
-import com.s.service.WyCleanCheckService;
+import com.s.service.base.WyCleanCheckService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

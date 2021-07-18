@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblPositionRecord;
 import com.s.mapper.TblPositionRecordMapper;
-import com.s.service.TblPositionRecordService;
+import com.s.service.base.TblPositionRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

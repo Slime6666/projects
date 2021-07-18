@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblRole;
 import com.s.mapper.TblRoleMapper;
-import com.s.service.TblRoleService;
+import com.s.service.base.TblRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

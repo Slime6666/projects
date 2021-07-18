@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblColor;
 import com.s.mapper.TblColorMapper;
-import com.s.service.TblColorService;
+import com.s.service.base.TblColorService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

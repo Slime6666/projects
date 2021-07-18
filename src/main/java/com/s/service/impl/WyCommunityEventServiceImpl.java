@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.WyCommunityEvent;
 import com.s.mapper.WyCommunityEventMapper;
-import com.s.service.WyCommunityEventService;
+import com.s.service.base.WyCommunityEventService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

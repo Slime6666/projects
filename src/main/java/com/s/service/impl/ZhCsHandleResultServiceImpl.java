@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.ZhCsHandleResult;
 import com.s.mapper.ZhCsHandleResultMapper;
-import com.s.service.ZhCsHandleResultService;
+import com.s.service.base.ZhCsHandleResultService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

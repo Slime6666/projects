@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.FyShareUserDetail;
 import com.s.mapper.FyShareUserDetailMapper;
-import com.s.service.FyShareUserDetailService;
+import com.s.service.base.FyShareUserDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblNetdiskDir;
 import com.s.mapper.TblNetdiskDirMapper;
-import com.s.service.TblNetdiskDirService;
+import com.s.service.base.TblNetdiskDirService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

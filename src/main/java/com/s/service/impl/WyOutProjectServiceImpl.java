@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.WyOutProject;
 import com.s.mapper.WyOutProjectMapper;
-import com.s.service.WyOutProjectService;
+import com.s.service.base.WyOutProjectService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.WyFireCheck;
 import com.s.mapper.WyFireCheckMapper;
-import com.s.service.WyFireCheckService;
+import com.s.service.base.WyFireCheckService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

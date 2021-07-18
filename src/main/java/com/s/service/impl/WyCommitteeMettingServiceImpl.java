@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.WyCommitteeMetting;
 import com.s.mapper.WyCommitteeMettingMapper;
-import com.s.service.WyCommitteeMettingService;
+import com.s.service.base.WyCommitteeMettingService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

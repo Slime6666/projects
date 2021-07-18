@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblAnswerData;
 import com.s.mapper.TblAnswerDataMapper;
-import com.s.service.TblAnswerDataService;
+import com.s.service.base.TblAnswerDataService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

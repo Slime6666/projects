@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.WyVegetationInformation;
 import com.s.mapper.WyVegetationInformationMapper;
-import com.s.service.WyVegetationInformationService;
+import com.s.service.base.WyVegetationInformationService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

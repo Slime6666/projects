@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.WyDutyManage;
 import com.s.mapper.WyDutyManageMapper;
-import com.s.service.WyDutyManageService;
+import com.s.service.base.WyDutyManageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

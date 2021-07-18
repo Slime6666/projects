@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblFunctionModel;
 import com.s.mapper.TblFunctionModelMapper;
-import com.s.service.TblFunctionModelService;
+import com.s.service.base.TblFunctionModelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

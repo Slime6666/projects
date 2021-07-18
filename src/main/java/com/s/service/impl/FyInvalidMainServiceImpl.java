@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.FyInvalidMain;
 import com.s.mapper.FyInvalidMainMapper;
-import com.s.service.FyInvalidMainService;
+import com.s.service.base.FyInvalidMainService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

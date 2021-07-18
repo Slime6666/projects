@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblSendLog;
 import com.s.mapper.TblSendLogMapper;
-import com.s.service.TblSendLogService;
+import com.s.service.base.TblSendLogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

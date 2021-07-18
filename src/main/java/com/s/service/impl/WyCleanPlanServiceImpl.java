@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.WyCleanPlan;
 import com.s.mapper.WyCleanPlanMapper;
-import com.s.service.WyCleanPlanService;
+import com.s.service.base.WyCleanPlanService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

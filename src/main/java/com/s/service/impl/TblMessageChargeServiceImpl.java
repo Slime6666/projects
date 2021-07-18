@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblMessageCharge;
 import com.s.mapper.TblMessageChargeMapper;
-import com.s.service.TblMessageChargeService;
+import com.s.service.base.TblMessageChargeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

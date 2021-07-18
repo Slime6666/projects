@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.FyStandingBookDetail;
 import com.s.mapper.FyStandingBookDetailMapper;
-import com.s.service.FyStandingBookDetailService;
+import com.s.service.base.FyStandingBookDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

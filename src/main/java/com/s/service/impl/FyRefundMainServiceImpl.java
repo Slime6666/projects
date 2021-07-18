@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.FyRefundMain;
 import com.s.mapper.FyRefundMainMapper;
-import com.s.service.FyRefundMainService;
+import com.s.service.base.FyRefundMainService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

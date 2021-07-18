@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.WyGreenCheck;
 import com.s.mapper.WyGreenCheckMapper;
-import com.s.service.WyGreenCheckService;
+import com.s.service.base.WyGreenCheckService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

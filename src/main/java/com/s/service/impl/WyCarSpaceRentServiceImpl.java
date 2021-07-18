@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.WyCarSpaceRent;
 import com.s.mapper.WyCarSpaceRentMapper;
-import com.s.service.WyCarSpaceRentService;
+import com.s.service.base.WyCarSpaceRentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

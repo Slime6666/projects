@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblStopDate;
 import com.s.mapper.TblStopDateMapper;
-import com.s.service.TblStopDateService;
+import com.s.service.base.TblStopDateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

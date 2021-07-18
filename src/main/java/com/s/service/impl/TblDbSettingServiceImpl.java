@@ -2,7 +2,7 @@ package com.s.service.impl;
 
 import com.s.bean.TblDbSetting;
 import com.s.mapper.TblDbSettingMapper;
-import com.s.service.TblDbSettingService;
+import com.s.service.base.TblDbSettingService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
