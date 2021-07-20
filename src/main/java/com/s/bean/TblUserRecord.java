@@ -41,7 +41,7 @@ public class TblUserRecord implements Serializable {
     /**
      * 岗位角色
      */
-    private TblUserRole tblRole;
+    private TblRole tblRole;
 
     /**
      * 用户性别
@@ -147,6 +147,15 @@ public class TblUserRecord implements Serializable {
      * 创建时间
      */
     private LocalDateTime createDate;
+    private String token;
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
 
 
     public Integer getId() {
@@ -333,11 +342,11 @@ public class TblUserRecord implements Serializable {
         this.createDate = createDate;
     }
 
-    public TblUserRole getTblRole() {
+    public TblRole getTblRole() {
         return tblRole;
     }
 
-    public void setTblRole(TblUserRole tblRole) {
+    public void setTblRole(TblRole tblRole) {
         this.tblRole = tblRole;
     }
 
@@ -386,6 +395,7 @@ public class TblUserRecord implements Serializable {
                 ", lastLoginDate=" + lastLoginDate +
                 ", createPerson='" + createPerson + '\'' +
                 ", createDate=" + createDate +
+                ", token='" + token + '\'' +
                 '}';
     }
 }
