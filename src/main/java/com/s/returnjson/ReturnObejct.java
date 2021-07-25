@@ -8,6 +8,14 @@ public class ReturnObejct {
     public ReturnObejct() {
     }
 
+    public ReturnObejct(Object result){
+        this.result = result;
+    }
+    public ReturnObejct(String message, Object result) {
+        this.message = message;
+        this.result = result;
+    }
+
     public ReturnObejct(Integer code) {
         this.code = code;
     }
@@ -33,10 +41,6 @@ public class ReturnObejct {
     }
 
     public void setResult(Object result) {
-        this.result = result;
-    }
-
-    public ReturnObejct(Object result) {
         this.result = result;
     }
 

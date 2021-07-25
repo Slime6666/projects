@@ -2,6 +2,7 @@ package com.s.mapper;
 
 import com.s.bean.FcBuilding;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.springframework.stereotype.Component;
 
 /**
  * <p>
@@ -11,6 +12,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author smile
  * @since 2021-07-17
  */
+@Component
 public interface FcBuildingMapper extends BaseMapper<FcBuilding> {
 
 }
