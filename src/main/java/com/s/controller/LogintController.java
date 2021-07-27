@@ -1,15 +1,14 @@
 package com.s.controller;
 
-import com.alibaba.fastjson.JSON;
+
 import com.alibaba.fastjson.JSONObject;
 import com.s.bean.TblUserRecord;
 import com.s.returnjson.Permission;
 import com.s.returnjson.Permissions;
-import com.s.returnjson.ReturnObejct;
+import com.s.returnjson.ReturnObject;
 import com.s.returnjson.UserInfo;
 import com.s.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -35,7 +34,7 @@ public class LogintController {
         TblUserRecord tblUserRecord = loginService.login(username, password);
         //将用户数据写入到session
         session.setAttribute("userRecord",tblUserRecord);
-        ReturnObejct returnObejct = new ReturnObejct(tblUserRecord);
+        ReturnObject returnObejct = new ReturnObject(tblUserRecord);
         tblUserRecord.setToken(tblUserRecord.getUserName());
         //System.out.println(tblUserRecord);
         /*JSONObject.parse(String)，将字符串转换成jsonobject对象。
@@ -60,7 +59,7 @@ public class LogintController {
         permissions.setPermissions(permissionsList);
         //设置返回值
         UserInfo userInfo = new UserInfo(tbluserRecord.getUserName(),permissions);
-        return JSONObject.toJSONString(new ReturnObejct(userInfo));
+        return JSONObject.toJSONString(new ReturnObject(userInfo));
     }
     //退出登录
     @RequestMapping("/auth/logout")

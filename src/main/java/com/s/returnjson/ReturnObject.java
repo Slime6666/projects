@@ -1,23 +1,21 @@
 package com.s.returnjson;
 
-public class ReturnObejct {
-    private Integer code=200;
-    private String message="";
+public class ReturnObject {
+
+    private Integer code = 200;
+    private String message = "";
     private Object result;
 
-    public ReturnObejct() {
+    public ReturnObject() {
     }
 
-    public ReturnObejct(Object result){
+    public ReturnObject(Object result) {
         this.result = result;
     }
-    public ReturnObejct(String message, Object result) {
+
+    public ReturnObject(String message, Object result) {
         this.message = message;
         this.result = result;
-    }
-
-    public ReturnObejct(Integer code) {
-        this.code = code;
     }
 
     public Integer getCode() {
@@ -44,12 +42,9 @@ public class ReturnObejct {
         this.result = result;
     }
 
-    public ReturnObejct(String message) {
-        this.message = message;
-    }
     @Override
     public String toString() {
-        return "RetrunObejct{" +
+        return "ReturnObject{" +
                 "code=" + code +
                 ", message='" + message + '\'' +
                 ", result=" + result +
